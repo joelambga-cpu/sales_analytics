@@ -3,7 +3,7 @@ Analisi di vendita fittizia
 # Sales Analytics Project
 
 ## Descrizione
-Questo progetto dimostra competenze in Python per l'analisi dati.  
+Questo progetto mostra un esempio di analisi dati.  
 Utilizza **pandas** per la manipolazione dei dati e **matplotlib** per la visualizzazione.  
 
 Il progetto analizza un dataset di vendite fittizio, calcola metriche chiave e genera grafici informativi, come il fatturato per regione.
