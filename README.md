@@ -1,42 +1,32 @@
-# sales_analytics
-Analisi di vendita fittizia
-# Sales Analytics Project
+# Sales Analytics
 
-## Descrizione
-Questo progetto mostra un esempio di analisi dati.  
-Utilizza **pandas** per la manipolazione dei dati e **matplotlib** per la visualizzazione.  
+A Python learning project using a fictional sales dataset to calculate revenue and compare regions.
 
-Il progetto analizza un dataset di vendite fittizio, calcola metriche chiave e genera grafici informativi, come il fatturato per regione.
+## Implemented workflow
 
+- Calculate revenue as quantity × price.
+- Aggregate and sort revenue by region.
+- Display a regional revenue chart.
+- Export the regional summary to `reports/sales_summary.xlsx`.
 
+The chart opens in a window; close it to let the script finish the Excel export. The sample is illustrative and does not describe a real business.
 
----
+## Installation and usage
 
-## Installazione
+From a terminal with Python available:
 
-1. Clona la repository:
-
-```bash
-git clone <url-del-tuo-github>
-cd sales_analytics
-
-Crea un virtual environment (opzionale ma consigliato):
-
+```powershell
+git clone https://github.com/joelambga-cpu/sales_analytics.git
+cd sales_analytics/sales_analytics
 python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m src.main
+```
 
+On macOS/Linux, replace `.\.venv\Scripts\python.exe` with `.venv/bin/python`.
 
-Attiva il virtual environment:
+## Files
 
-Windows (PowerShell):
-
-.\.venv\Scripts\Activate
-
-
-macOS/Linux:
-
-source .venv/bin/activate
-
-
-Installa le dipendenze:
-
-pip install pandas matplotlib
+- [Sample data](sales_analytics/data/sales_data.csv)
+- [Source code](sales_analytics/src/)
+- [Example Excel output](sales_analytics/reports/sales_summary.xlsx)
